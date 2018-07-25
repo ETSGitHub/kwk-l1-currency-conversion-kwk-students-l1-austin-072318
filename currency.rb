@@ -21,7 +21,7 @@ def usd_to_gbp(usd)
 end
 
 def gbp_to_usd(gbp)
-  bgp / 0.76
+  gbp / 0.76
 end
 
 def usd_to_aud(usd)
