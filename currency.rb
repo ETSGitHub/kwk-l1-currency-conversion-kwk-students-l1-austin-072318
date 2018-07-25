@@ -50,35 +50,35 @@ choice = gets.chomp().to_i
 case choice
 when 1
   #def usd_to_eur(usd="10")
-  puts usd * 0.86 
+  puts amount * 0.86 
   #end
 when 2
   #def usd_to_jpy(usd)
-  puts usd * 111.08
+  puts amount * 111.08
   #end
 when 3
   #def usd_to_gbp(usd)
-  puts usd * 0.76
+  puts amount * 0.76
   #end
 when 4
   #def usd_to_aud(usd)
-  puts usd * 1.35
+  puts amount * 1.35
   #end
 when 5
   #def eur_to_usd(eur)
-  puts eur / 0.86 
+  puts amount / 0.86 
   #end
 when 6
   #def jpy_to_usd(jpy)
-  puts jpy / 111.08
+  puts amount / 111.08
   #end
 when 7
   #def gbp_to_usd(gbp)
-  puts gbp / 0.76
+  puts amount / 0.76
   #end
 when 8
   #def aud_to_usd(aud)
-  puts aud / 1.35
+  puts amount / 1.35
   #end
 else 
   puts "Invalid input, exiting..."
