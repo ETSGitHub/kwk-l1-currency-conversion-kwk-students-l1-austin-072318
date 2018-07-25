@@ -49,16 +49,16 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  def usd_to_eur(usd="10")
+  #def usd_to_eur(usd="10")
   puts usd * 0.86 
-  end
+  #end
 when 2
-  def usd_to_jpy(usd)
+  #def usd_to_jpy(usd)
   puts usd * 111.08
-  end
+  #end
 end
 when 3
-  def usd_to_gbp(usd)
+  #def usd_to_gbp(usd)
   puts usd * 0.76
   end
 when 4
