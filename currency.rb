@@ -56,7 +56,6 @@ when 2
   #def usd_to_jpy(usd)
   puts usd * 111.08
   #end
-end
 when 3
   #def usd_to_gbp(usd)
   puts usd * 0.76
