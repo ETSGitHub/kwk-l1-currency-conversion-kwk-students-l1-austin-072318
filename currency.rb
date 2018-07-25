@@ -60,27 +60,27 @@ end
 when 3
   #def usd_to_gbp(usd)
   puts usd * 0.76
-  end
+  #end
 when 4
-  def usd_to_aud(usd)
+  #def usd_to_aud(usd)
   puts usd * 1.35
-  end
+  #end
 when 5
-  def eur_to_usd(eur)
+  #def eur_to_usd(eur)
   puts eur / 0.86 
-  end
+  #end
 when 6
-  def jpy_to_usd(jpy)
+  #def jpy_to_usd(jpy)
   puts jpy / 111.08
-  end
+  #end
 when 7
-  def gbp_to_usd(gbp)
+  #def gbp_to_usd(gbp)
   puts gbp / 0.76
-  end
+  #end
 when 8
-  def aud_to_usd(aud)
+  #def aud_to_usd(aud)
   puts aud / 1.35
-  end
+  #end
 else 
   puts "Invalid input, exiting..."
   
