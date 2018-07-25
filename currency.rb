@@ -49,7 +49,28 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  
-
-
+  def usd_to_eur(usd="10")
+  usd * 0.86 
+  end
+when 2
+  def usd_to_jpy(usd)
+  usd * 111.08
+  end
+end
+when 3
+  def usd_to_gbp(usd)
+  usd * 0.76
+  end
+when 4
+  def usd_to_aud(usd)
+  usd * 1.35
+  end
+when 5
+  def eur_to_usd(eur)
+  eur / 0.86 
+  end
+when 6
+  def jpy_to_usd(jpy)
+  jpy / 111.08
+end
 
